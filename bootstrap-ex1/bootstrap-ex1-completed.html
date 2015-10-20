@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Example of how to build websites quickly using Twitter Bootstrap" content="#"> <!-- (Example: Compelling description to be displayed on Search Engine) -->
+		<meta name="Jennifer Pham" content="#"> <!-- (example: Developers Name) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Bootstrap Example 1</title>
+<!-- (External) Default Style Sheets =========== -->
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Style Sheets ============================== -->
+		<link rel="stylesheet" href="css/bootstrap-ex1-styles-completed.css"/>
+<!-- Additional Style Sheets =================== -->
+
+	</head>
+	<body>
+
+<!-- Content starts here ======================= -->
+
+<!--Start: nav.navbar.navbar-default-->
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+	  <!--Navbar: mobile button-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#whatevername" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+		<a class="img-responsive" href="#">
+			<img alt="batman logo" src="img/1-batmanlogo.png">
+		</a>
+    </div>
+
+	<!--Navbar: links section-->
+    <div class="collapse navbar-collapse" id="whatevername">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About Us</a></li>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Costume Types <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="#">Adults</a></li>
+                  <li><a href="#">Kids</a></li>
+                  <li><a href="#">Babies</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Accessories</a></li>
+              </ul>
+          </li>
+        <li><a href="#">Discounts</a></li>
+        <li><a href="#">Testimonials</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--End: nav.navbar.navbar-default-->
+
+<!-- Start: headerbanner -->
+<section class="headerbanner">
+	<div class="container-fluid">
+		<div class="row">
+			 <div class="col-xs-12">
+				<h1 class="pull-right">Buy your costumes today!</h1>
+		 	</div>
+		</div>
+	</div>
+</section>
+<!-- End: headerbanner -->
+
+<!-- Start: firsttextsection -->
+<section class="firsttextsection ">
+	<div class="container orange-bkgrd">
+		<div class="row">
+			 <div class="col-xs-12">
+					 <p>Explore our vast selection of original and amazing costume ideas to find the perfect costume that is uniquely you. SpiritHalloween.com is more than just costumes - think Halloween props, accessories, hats, wigs, shoes, make-up, masks and much more, all designed to transform you and your family in bewitchingly convincing Halloween style! Professional grade theatrical quality costumes and accessories add a note of authenticity to fool even your closest family members and friends. Find sexy adult costumes, scary costumes, funny costumes, family friendly costumes, plus size costumes and group costumes at SpiritHalloween.com! </p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End: firsttextsection -->
+
+<!-- Start: 3columnsection -->
+<section class="3columnsection">
+	<div class="container">
+		<div class="row">
+			 <div class="col-md-4">
+			 	<img src="img/1-adult.jpg" class="img-responsive img-circle center-block">
+				 <h3 class="text-center">Adults</h3>
+				 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia runt mollit anim id est laborum.</p>
+
+			 </div>
+			 <div class="col-md-4">
+			 	<img src="img/1-kid.jpg" class="img-responsive img-circle center-block">
+				 <h3 class="text-center">Kids</h3>
+				 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia runt mollit anim id est laborum.</p>
+			 </div>
+			 <div class="col-md-4">
+			 	<img src="img/1-baby.jpg" class="img-responsive img-circle center-block">
+				 <h3 class="text-center">Babies</h3>
+				 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia runt mollit anim id est laborum.</p>
+			 </div>
+		</div>
+	</div>
+</section>
+<!-- End: 3columnsection -->
+
+<!-- Start: footer1-section -->
+<section class="footer1-section orange-bkgrd">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<img src="http://placehold.it/600x200" alt="" class="img-responsive"/>
+			</div>
+			<div class="col-md-9">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea illo impedit iure minus placeat quasi sed tempora tempore! Aliquid consequatur, cum enim expedita iure modi nihil nulla optio quis.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End: footer1-section -->
+
+<!-- Start: footer2-icon-section -->
+<section class="footer2-icon-section blackbkgrd">
+	<div class="container">
+		<div class="row">
+						<div class="col-md-3">
+							<i class="glyphicon glyphicon-map-marker"></i> <span>11931 Euclid St. <br/>Garden Grove, CA 92840</span>
+						</div>
+						<div class="col-md-3">
+							<i class="glyphicon glyphicon-phone"></i> <span>714-537-5250</span>
+						</div>
+						<div class="col-md-3">
+							<i class="glyphicon glyphicon-envelope"></i> <span>jennifer@jenniferpham.biz</span>
+						</div>
+						<div class="col-md-3">
+							<i class="glyphicon glyphicon-thumbs-up"></i> <span>facebook.com/halloweenparty</span>
+						</div>
+
+		</div>
+	</div>
+</section>
+<!-- End: footer2-icon-section -->
+
+<!-- Default Scripts =========================== -->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- Custom Scripts below this line ============ -->
+
+	</body>
+</html>

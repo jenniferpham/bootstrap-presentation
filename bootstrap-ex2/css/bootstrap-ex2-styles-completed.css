@@ -1,0 +1,25 @@
+section{
+    padding: 40px 0;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.headerbanner>.container{
+    background-color: #b00808;
+    color: #fff;
+    padding: 30px;
+
+}
+.headerbanner p{
+    font-size: 20px;
+}
+.brownbkg{
+    background-color: #f4b777;
+    padding: 30px;
+}
+p{
+    font-size: 14px;
+}

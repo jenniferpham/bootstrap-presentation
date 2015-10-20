@@ -1,0 +1,25 @@
+section{
+    padding: 40px 0;
+}
+.headerbanner{
+    background: url('../img/1-halloween-banner.jpg') center center no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-shadow: 2px 2px #FF0000;
+    border:none;
+}
+h1{
+    color: #fff;
+    font-size: 70px;
+}
+.navbar{
+    margin-bottom:0;
+}
+.orange-bkgrd{
+    background-color: #fca046;
+    padding: 30px;
+}
+.blackbkgrd{
+    background-color: #101010;
+    color: #fff;
+}
