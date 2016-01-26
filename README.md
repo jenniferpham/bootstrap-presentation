@@ -34,10 +34,9 @@ For each exercise, there is a "-start.html" and a “-finish.html" file.
   -Start is a file with empty notes sections for you to fill in code.  Use "-start.html" to code and practice.
   -To see how I did it, you can look at the "-finish” files.
 
-1. [Carousel: ](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Carousel) https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Carousel
-2. 
-3.
-4.
-5.
-6.
+1. [Accordion: ](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Accordion) https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Accordion
+2. [Carousel: ](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Carousel) https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Carousel
+3.[Collapse: ](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Collapse) https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Collapse
+4.[Modal: ](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Modal) https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Modal5.[Tabs: ](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Tabs) https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Tabs
+6.[Tooltips: ](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Tooltip) https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Tooltip
 
