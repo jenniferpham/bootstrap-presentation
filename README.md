@@ -36,7 +36,7 @@ For each exercise, there is a "-start.html" and a “-finish.html" file.
 
 1. [Accordion](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Accordion)
 2. [Carousel](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Carousel)
-3.[Collapse](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Collapse)
+3. [Collapse](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Collapse)
 4. [Modal](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Modal)
 5. [Tabs](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Tabs)
 6. [Tooltips](https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part2-BootstrapJS/Tooltip)
