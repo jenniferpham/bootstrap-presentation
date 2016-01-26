@@ -1,9 +1,12 @@
 # Bootstrap Presentation
 
-##[Twitter Bootstrap Presentation Slides:](https://docs.google.com/presentation/d/1IuVYkWpv-1zH46ZnpcKslOYMWZO0fA0KajGnG2h6MvE/edit#slide=id.gc6f919934_0_0)
+##Part 1: Twitter Bootstrap CSS
+###navbar, header, bootstrap grid, images
+
+###[Twitter Bootstrap Presentation Slides:](https://docs.google.com/presentation/d/1IuVYkWpv-1zH46ZnpcKslOYMWZO0fA0KajGnG2h6MvE/edit#slide=id.gc6f919934_0_0)
 https://docs.google.com/presentation/d/1IuVYkWpv-1zH46ZnpcKslOYMWZO0fA0KajGnG2h6MvE/edit#slide=id.gc6f919934_0_0
 
-##[2 Bootstrap Project Exercises on Github:](https://github.com/jenniferpham/bootstrap-presentation)
+###[2 Bootstrap Project Exercises on Github:](https://github.com/jenniferpham/bootstrap-presentation)
 https://github.com/jenniferpham/bootstrap-presentation
 
 For each exercise, there is a "-start.html" and a "-completed.html" file.
@@ -16,4 +19,25 @@ For each exercise, there is a "-start.html" and a "-completed.html" file.
 2. Bootstrap Exercise #2
   - Coding exercise: https://github.com/jenniferpham/bootstrap-presentation/tree/master/bootstrap-ex2
   - HTML example: http://jenniferpham.biz/bootstrap-presentation/bootstrap-ex2/bootstrap-ex2-completed.html
+
+
+##Part 2: Twitter Bootstrap JS
+###carousel, modal, collapse, accordion, tooltip
+
+###[Twitter Bootstrap Presentation Slides:](https://docs.google.com/presentation/d/1IuVYkWpv-1zH46ZnpcKslOYMWZO0fA0KajGnG2h6MvE/edit#slide=id.gc6f919934_0_0)
+https://docs.google.com/presentation/d/1IuVYkWpv-1zH46ZnpcKslOYMWZO0fA0KajGnG2h6MvE/edit#slide=id.gc6f919934_0_0
+
+###[2 Bootstrap Project Exercises on Github:](https://github.com/jenniferpham/bootstrap-presentation)
+https://github.com/jenniferpham/bootstrap-presentation
+
+For each exercise, there is a "-start.html" and a “-finish.html" file.
+  -Start is a file with empty notes sections for you to fill in code.  Use "-start.html" to code and practice.
+  -To see how I did it, you can look at the "-finish” files.
+
+1. (Carousel: )[]
+2. 
+3.
+4.
+5.
+6.
 

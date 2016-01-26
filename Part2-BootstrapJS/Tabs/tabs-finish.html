@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+    <!-- Add viewport meta tag for responsive design -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="Description" content="#"> <!-- (Example: description to be displayed on Search Engine) -->
+		<meta name="author" content="#"> <!-- (example: Developers Name) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Bootstrap JS: Tabs</title>
+
+    <!-- Add Bootstrap.css stylesheet-->
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+
+<!-- TEACHING MATERIALS: =======================
+
+PRESENTER: Jennifer Pham http://www.jenniferpham.biz
+PRACTICE EXERCISES: https://github.com/jenniferpham/bootstrap-presentation
+SLIDES: https://docs.google.com/presentation/d/1aH0i2qeiEmLxc448H3mL0fQ-G1ZszXfiw70Mg_NqOeg/edit#slide=id.gc6f919934_0_0
+
+-->
+
+<!-- Content starts here ======================= -->
+
+<div class="container">
+
+<h1>Tabs</h1>
+
+<!--****** TABS -->
+<!-- INSTRUCTIONS:
+
+3 TABS: features, specifications, uses
+
+
+1. TAB NAME: Features (ID: features)
+TAB CONTENT: 
+        <ul>
+          <li> Durable: Built to Last with high quality gear box components for years of reliable operation</li>
+          <li>Unique: Desk features non-slip surface, easy access drawer and massage rollers positioned to make typing while exercising comfortable</li>
+          <li>Adjustable: Seat Back and Extender included allowing for upright and semi-recumbent use</li>
+          <li></li>
+          <li>Space Saving: Quick lock folding frame is great for easy transport and storage</li>
+          <li>Practical: Fits naturally into your daily routine, is the exercise bike you will actually use</li>
+        </ul>  
+
+
+2. TAB NAME: Product Details (ID: details)
+TAB CONTENT: 
+        <p>Product Dimensions: 28 x 16 x 45 inches ; 45 pounds<br>
+        Shipping Weight: 56.4 pounds (View shipping rates and policies)<br>
+        Domestic Shipping: Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.<br>
+        ASIN: B00CM9CBZY<br>
+        Item model number: FDX 2.0-003<br>
+        Batteries 2 AA batteries required. (included)</p>
+
+
+3. TAB NAME: Uses (ID: uses)
+TAB CONTENT: 
+<p>The FitDesk 2.0 lightweight folding exercise bike with sliding desk platform is perfect for improving your cardiovascular health while working on that next big deadline, surfing the web or keeping up with friends. Using a laptop, reading a magazine or playing a video game while engaging your legs in resistance pedaling has significant health benefits over inactive sitting for long periods. Adjust your resistance level throughout the day for a varied workout or use the included convenient upper-body resistance bands for an added cardio boost.</p>
+
+ -->
+
+
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">
+    	<a href="#features" aria-controls="features" role="tab" data-toggle="tab">
+    		Features
+    	</a>
+    </li>
+   <li role="presentation">
+    	<a href="#details" aria-controls="details" role="tab" data-toggle="tab">
+    		Product Details
+    	</a>
+    </li>
+    <li role="presentation">
+    	<a href="#uses" aria-controls="uses" role="tab" data-toggle="tab">
+    		Uses
+    	</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes  -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="features">
+        <ul>
+          <li> Durable: Built to Last with high quality gear box components for years of reliable operation</li>
+          <li>Unique: Desk features non-slip surface, easy access drawer and massage rollers positioned to make typing while exercising comfortable</li>
+          <li>Adjustable: Seat Back and Extender included allowing for upright and semi-recumbent use</li>
+          <li></li>
+          <li>Space Saving: Quick lock folding frame is great for easy transport and storage</li>
+          <li>Practical: Fits naturally into your daily routine, is the exercise bike you will actually use</li>
+        </ul>  
+    </div>
+    <div role="tabpanel" class="tab-pane" id="details">
+        <p>Product Dimensions: 28 x 16 x 45 inches ; 45 pounds<br>
+        Shipping Weight: 56.4 pounds (View shipping rates and policies)<br>
+        Domestic Shipping: Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.<br>
+        ASIN: B00CM9CBZY<br>
+        Item model number: FDX 2.0-003<br>
+        Batteries 2 AA batteries required. (included)</p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="uses">
+      <p>The FitDesk 2.0 lightweight folding exercise bike with sliding desk platform is perfect for improving your cardiovascular health while working on that next big deadline, surfing the web or keeping up with friends. Using a laptop, reading a magazine or playing a video game while engaging your legs in resistance pedaling has significant health benefits over inactive sitting for long periods. Adjust your resistance level throughout the day for a varied workout or use the included convenient upper-body resistance bands for an added cardio boost.</p>
+    </div>
+  </div>
+
+
+
+
+</div><!--/container-->
+
+
+<!-- Scripts =========================== -->
+
+    <!-- Add jQuery before bootstrap.js (Bootstrap uses jquery so without jQuery first, the browser won't understand all the bootstrap.js code)-->
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Add Bootstrap.js for functions-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+
+	</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+    <!-- Add viewport meta tag for responsive design -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="Description" content="#"> <!-- (Example: description to be displayed on Search Engine) -->
+		<meta name="author" content="#"> <!-- (example: Developers Name) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Bootstrap JS</title>
+
+    <!-- Add Bootstrap.css stylesheet-->
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+<!-- Content starts here ======================= -->
+
+<!-- 
+TEACHING MATERIALS: =======================
+
+PRESENTER: Jennifer Pham www.jenniferpham.biz
+PRACTICE EXERCISES: https://github.com/jenniferpham/bootstrap-presentation
+SLIDES: https://docs.google.com/presentation/d/1aH0i2qeiEmLxc448H3mL0fQ-G1ZszXfiw70Mg_NqOeg/edit#slide=id.gc6f919934_0_0
+
+ -->
+
+<div class="container">
+
+  <h1>Tooltip</h1>
+
+
+  <!-- INSTRUCTIONS: 
+
+  Create a light-blue button that says "How do I get a job?" with a tooltip that says "Apply, find tech recruiters, and practice interviews"
+
+  Try all 4 data placements: top, bottom, left, right
+   -->
+   
+  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Apply, find tech recruiters, and practice interviews">How do I get a job?</button>
+
+
+</div><!--/container-->
+
+
+<!-- Scripts =========================== -->
+
+    <!-- Add jQuery before bootstrap.js (Bootstrap uses jquery so without jQuery first, the browser won't understand all the bootstrap.js code)-->
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Add Bootstrap.js for functions-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+  <!-- Add script to initialize/start tooltip or else it won't work -->
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
+
+	</body>
+</html>

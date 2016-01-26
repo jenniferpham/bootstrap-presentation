@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+    <!-- Add viewport meta tag for responsive design -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="Description" content="#"> <!-- (Example: description to be displayed on Search Engine) -->
+		<meta name="author" content="#"> <!-- (example: Developers Name) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Bootstrap JS: Collapse</title>
+
+    <!-- Add Bootstrap.css stylesheet-->
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+
+<!-- TEACHING MATERIALS: =======================
+
+PRESENTER: Jennifer Pham http://www.jenniferpham.biz
+PRACTICE EXERCISES: https://github.com/jenniferpham/bootstrap-presentation
+SLIDES: https://docs.google.com/presentation/d/1aH0i2qeiEmLxc448H3mL0fQ-G1ZszXfiw70Mg_NqOeg/edit#slide=id.gc6f919934_0_0
+
+-->
+
+<!-- Content starts here ======================= -->
+<div class="container">
+
+<h1>Collapse</h1>
+
+<!--
+
+INSTRUCTIONS:
+Create a button labeled "Open Me" that opens a div with id="tmi" 
+First way: <button> with data-target attribute
+Second way: <a> with href attribute
+
+Id: tmi
+Content:
+      <p>
+        Product Dimensions: 28 x 16 x 45 inches ; 45 pounds<br>
+        Shipping Weight: 56.4 pounds (View shipping rates and policies)<br>
+        Domestic Shipping: Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.<br>
+        ASIN: B00CM9CBZY<br>
+        Item model number: FDX 2.0-003<br>
+        Batteries 2 AA batteries required. (included)
+      </p>
+
+-->
+
+<!-- First Way (blue button w/ button[data-target] )-->
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tmi" aria-expanded="false" aria-controls="tmi">
+  Open Me Button
+</button>
+
+<!-- Second Way (orange button w/ a[href] )-->
+<a class="btn btn-warning" type="button" href="#tmi" data-toggle="collapse" aria-expanded="false" aria-controls="tmi">
+  Open Me A-Tag
+</a>
+
+<!-- Content that opens and collapses -->
+<div class="collapse" id="tmi">
+  <div class="well"><!--gray background-->
+      <p>
+        Product Dimensions: 28 x 16 x 45 inches ; 45 pounds<br>
+        Shipping Weight: 56.4 pounds (View shipping rates and policies)<br>
+        Domestic Shipping: Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.<br>
+        ASIN: B00CM9CBZY<br>
+        Item model number: FDX 2.0-003<br>
+        Batteries 2 AA batteries required. (included)
+      </p>
+  </div>
+</div>
+
+
+
+<!-- Scripts =========================== -->
+
+    <!-- Add jQuery before bootstrap.js (Bootstrap uses jquery so without jQuery first, the browser won't understand all the bootstrap.js code)-->
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Add Bootstrap.js for functions-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+
+	</body>
+</html>
