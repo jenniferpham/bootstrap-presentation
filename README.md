@@ -1,7 +1,7 @@
 # Bootstrap Presentation
 
 ##Part 1: Twitter Bootstrap CSS
-nabber, header, bootstrap grid, images
+navbar, header, bootstrap grid, images
 
 ###[Presentation Slides:](https://docs.google.com/presentation/d/1IuVYkWpv-1zH46ZnpcKslOYMWZO0fA0KajGnG2h6MvE/edit#slide=id.gc6f919934_0_0)
 https://docs.google.com/presentation/d/1IuVYkWpv-1zH46ZnpcKslOYMWZO0fA0KajGnG2h6MvE/edit#slide=id.gc6f919934_0_0
@@ -17,7 +17,7 @@ For each exercise, there is a "-start.html" and a "-completed.html" file.
   - Coding exercise: https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part1-Bootstrap/bootstrap-ex1
   - HTML example: http://jenniferpham.biz/bootstrap-presentation/bootstrap-ex1/bootstrap-ex1-completed.html
 2. Bootstrap Exercise #2
-  - Coding exercise: hhttps://github.com/jenniferpham/bootstrap-presentation/tree/master/Part1-Bootstrap/bootstrap-ex2
+  - Coding exercise: https://github.com/jenniferpham/bootstrap-presentation/tree/master/Part1-Bootstrap/bootstrap-ex2
   - HTML example: http://jenniferpham.biz/bootstrap-presentation/bootstrap-ex2/bootstrap-ex2-completed.html
 
 
